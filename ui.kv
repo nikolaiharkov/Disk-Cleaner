@@ -1,0 +1,280 @@
+# --- ui.kv ---
+# Kivy layout definition for the Disk Cleaner application.
+
+#:import dp kivy.metrics.dp
+
+# --- Custom Widget Definitions ---
+
+<FileTreeNode@TreeViewLabel>:
+    # Ini sekarang HANYA digunakan oleh logic refresh, BUKAN untuk ditampilkan
+    node: None
+    
+    BoxLayout:
+        pos: root.pos
+        size: root.size
+        spacing: '5dp'
+        padding: [root.level * dp(20), 0, 0, 0]
+        
+        CheckBox:
+            id: checkbox
+            size_hint_x: None
+            width: '40dp'
+            active: root.node.selected if root.node else False
+            on_active: app.on_node_select(root.node, self.active)
+            
+        Label:
+            id: icon
+            size_hint_x: None
+            width: '25dp'
+            text: '[D]' if (root.node.is_dir if root.node else False) else '[F]'
+            
+        Label:
+            id: name
+            text: root.node.name if root.node else ''
+            text_size: self.width, None
+            halign: 'left'
+            valign: 'middle'
+            shorten: True
+            shorten_from: 'right'
+            
+        Label:
+            id: size
+            size_hint_x: 0.3
+            text: app.format_bytes_proxy(root.node.size_bytes) if (root.node and root.node.size_bytes > 0) else ''
+            text_size: self.width, None
+            halign: 'right'
+            valign: 'middle'
+            font_size: '12sp'
+
+<FileListItem@BoxLayout>:
+    # Widget ini sekarang digunakan oleh SEMUA tab
+    node: None
+    orientation: 'horizontal'
+    size_hint_y: None
+    height: '30dp'
+    spacing: '5dp'
+    
+    CheckBox:
+        id: checkbox
+        size_hint_x: None
+        width: '40dp'
+        active: root.node.selected if root.node else False
+        on_active: app.on_node_select(root.node, self.active)
+        
+    Label:
+        id: name
+        size_hint_x: 0.4
+        text: root.node.name if root.node else ''
+        text_size: self.width, None
+        halign: 'left'
+        valign: 'middle'
+        shorten: True
+        shorten_from: 'right'
+        
+    Label:
+        id: size
+        size_hint_x: 0.2
+        text: app.format_bytes_proxy(root.node.size_bytes) if root.node else '0 B'
+        text_size: self.width, None
+        halign: 'left'
+        valign: 'middle'
+        
+    Label:
+        id: path
+        size_hint_x: 0.4
+        text: root.node.path if root.node else ''
+        font_size: '12sp'
+        color: 0.7, 0.7, 0.7, 1
+        text_size: self.width, None
+        halign: 'left'
+        valign: 'middle'
+        shorten: True
+        shorten_from: 'left'
+
+# --- Main Application Layout ---
+
+MainLayout:
+    orientation: 'vertical'
+    padding: '10dp'
+    spacing: '5dp'
+
+    # --- 1. Header ---
+    BoxLayout:
+        size_hint_y: None
+        height: '40dp'
+        spacing: '10dp'
+        
+        Button:
+            id: select_dir_button
+            text: 'Select Directory'
+            size_hint_x: 0.3
+            on_press: app.show_folder_chooser()
+            
+        Label:
+            id: selected_dir_label
+            text: 'No directory selected. Click "Select Directory" to begin.'
+            text_size: self.width, None
+            halign: 'left'
+            valign: 'middle'
+            shorten: True
+            shorten_from: 'left'
+            
+        Button:
+            id: scan_button
+            text: 'Scan'
+            size_hint_x: 0.2
+            disabled: True
+            on_press: app.start_scan()
+            
+        Button:
+            id: cancel_scan_button
+            text: 'Cancel'
+            size_hint_x: 0.2
+            disabled: True
+            opacity: 0
+            on_press: app.cancel_scan()
+
+    # --- 2. Progress Bar & Status ---
+    BoxLayout:
+        orientation: 'vertical'
+        size_hint_y: None
+        height: '30dp'
+        
+        ProgressBar:
+            id: scan_progress
+            size_hint_y: None
+            height: '8dp'
+            value: 0
+            
+        Label:
+            id: scan_status_label
+            text: 'Ready.'
+            size_hint_x: 1
+            size_hint_y: None
+            height: '17dp'
+            font_size: '12sp'
+            text_size: self.width, None
+            halign: 'left'
+            valign: 'middle'
+            shorten: True
+            shorten_from: 'left'
+            padding: ['5dp', 0]
+
+    # --- 3. Main Content: Tabs ---
+    TabbedPanel:
+        id: main_tabs
+        do_default_tab: True
+        tab_width: '150dp'
+        
+        # --- DIPERBAIKI: Tab "All Files (Tree)" dihapus dan diganti ---
+        TabbedPanelItem:
+            text: 'All Files (List)'
+            RecycleView:
+                id: all_files_rv  # ID baru
+                viewclass: 'FileListItem' # Menggunakan widget list
+                RecycleBoxLayout:
+                    default_size: None, '30dp'
+                    default_size_hint: 1, None
+                    size_hint_y: None
+                    height: self.minimum_height
+                    orientation: 'vertical'
+        
+        TabbedPanelItem:
+            id: tab_large_files
+            text: 'Large Files'
+            RecycleView:
+                id: large_files_rv
+                viewclass: 'FileListItem'
+                RecycleBoxLayout:
+                    default_size: None, '30dp'
+                    default_size_hint: 1, None
+                    size_hint_y: None
+                    height: self.minimum_height
+                    orientation: 'vertical'
+                    
+        TabbedPanelItem:
+            id: tab_old_files
+            text: 'Old Files'
+            RecycleView:
+                id: old_files_rv
+                viewclass: 'FileListItem'
+                RecycleBoxLayout:
+                    default_size: None, '30dp'
+                    default_size_hint: 1, None
+                    size_hint_y: None
+                    height: self.minimum_height
+                    orientation: 'vertical'
+
+        TabbedPanelItem:
+            id: tab_temp_files
+            text: 'Temporary'
+            RecycleView:
+                id: temp_files_rv
+                viewclass: 'FileListItem'
+                RecycleBoxLayout:
+                    default_size: None, '30dp'
+                    default_size_hint: 1, None
+                    size_hint_y: None
+                    height: self.minimum_height
+                    orientation: 'vertical'
+
+        TabbedPanelItem:
+            id: tab_zero_empty
+            text: 'Zero-byte & Empty'
+            RecycleView:
+                id: zero_empty_rv
+                viewclass: 'FileListItem'
+                RecycleBoxLayout:
+                    default_size: None, '30dp'
+                    default_size_hint: 1, None
+                    size_hint_y: None
+                    height: self.minimum_height
+                    orientation: 'vertical'
+
+        TabbedPanelItem:
+            text: 'Duplicates (Scan Req.)'
+            BoxLayout:
+                orientation: 'vertical'
+                padding: '10dp'
+                spacing: '10dp'
+                Button:
+                    id: scan_duplicates_button
+                    text: 'Scan for Duplicates (I/O Intensive)'
+                    size_hint_y: None
+                    height: '40dp'
+                    disabled: True
+                    on_press: app.start_duplicate_scan()
+                Label:
+                    id: duplicates_status_label
+                    text: 'Scan for duplicates by hashing files.'
+                    size_hint_y: None
+                    height: '20dp'
+                RecycleView:
+                    id: duplicates_rv
+                    viewclass: 'FileListItem'
+                    RecycleBoxLayout:
+                        default_size: None, '30dp'
+                        default_size_hint: 1, None
+                        size_hint_y: None
+                        height: self.minimum_height
+                        orientation: 'vertical'
+
+    # --- 4. Footer ---
+    BoxLayout:
+        size_hint_y: None
+        height: '40dp'
+        
+        Label:
+            id: selection_summary_label
+            text: 'Selected: 0 items (0 B)'
+            text_size: self.width, None
+            halign: 'left'
+            valign: 'middle'
+            
+        Button:
+            id: delete_button
+            text: 'Delete Selected...'
+            size_hint_x: 0.3
+            disabled: True
+            on_press: app.show_delete_confirmation()
+            background_color: (1, 0.2, 0.2, 1)

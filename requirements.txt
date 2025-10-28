@@ -1,0 +1,11 @@
+# --- requirements.txt ---
+#
+# Core application framework
+kivy>=2.1.0
+
+# For safe deletion (Send to Recycle Bin / Trash)
+send2trash>=1.8.0
+
+# For native OS dialogs (like 'Select Folder')
+# This is part of the Kivy ecosystem
+plyer>=2.1.0

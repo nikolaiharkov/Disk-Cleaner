@@ -1,0 +1,346 @@
+(venv) PS D:\Disk-Cleaner> python main.py
+[INFO   ] [Logger      ] Record log in C:\Users\daffa\.kivy\logs\kivy_25-10-27_19.txt
+[INFO   ] [deps        ] Successfully imported "kivy_deps.angle" 0.4.0
+[INFO   ] [deps        ] Successfully imported "kivy_deps.glew" 0.3.1
+[INFO   ] [deps        ] Successfully imported "kivy_deps.sdl2" 0.8.0
+[INFO   ] [Kivy        ] v2.3.1
+[INFO   ] [Kivy        ] Installed at "D:\Disk-Cleaner\venv\lib\site-packages\kivy\__init__.py"
+[INFO   ] [Python      ] v3.10.6 (tags/v3.10.6:9c7b4bd, Aug  1 2022, 21:53:49) [MSC v.1932 64 bit (AMD64)]
+[INFO   ] [Python      ] Interpreter at "D:\Disk-Cleaner\venv\Scripts\python.exe"
+[INFO   ] [Logger      ] Purge log fired. Processing...
+[INFO   ] [Logger      ] Purge finished!
+[INFO   ] [Factory     ] 195 symbols loaded
+[INFO   ] [Image       ] Providers: img_tex, img_dds, img_sdl2 (img_pil, img_ffpyplayer ignored)
+[INFO   ] [Text        ] Provider: sdl2
+[WARNING] [Factory     ] Ignored class "FileTreeNode" re-declaration. Current -  module: None, cls: <class '__main__.FileTreeNode'>, baseclass: None, filename: None. Ignored -  module: None, cls: None, baseclass: TreeViewLabel, filename: D:\Disk-Cleaner\ui.kv.
+[WARNING] [Factory     ] Ignored class "FileListItem" re-declaration. Current -  module: None, cls: <class '__main__.FileListItem'>, baseclass: None, filename: None. Ignored -  module: None, cls: None, baseclass: BoxLayout, filename: D:\Disk-Cleaner\ui.kv.
+[INFO   ] [Window      ] Provider: sdl2
+[INFO   ] [GL          ] Using the "OpenGL" graphics system
+[INFO   ] [GL          ] GLEW initialization succeeded
+[INFO   ] [GL          ] Backend used <glew>
+[INFO   ] [GL          ] OpenGL version <b'4.6.0 Compatibility Profile Context 23.11.1.231017'>
+[INFO   ] [GL          ] OpenGL vendor <b'ATI Technologies Inc.'>
+[INFO   ] [GL          ] OpenGL renderer <b'AMD Radeon(TM) RX 560 Series'>
+[INFO   ] [GL          ] OpenGL parsed version: 4, 6
+[INFO   ] [GL          ] Shading version <b'4.60'>
+[INFO   ] [GL          ] Texture max size <16384>
+[INFO   ] [GL          ] Texture max units <32>
+[INFO   ] [Window      ] auto add sdl2 input provider
+[INFO   ] [Window      ] virtual keyboard not allowed, single mode, not docked
+[INFO   ] [Base        ] Start application main loop
+[INFO   ] [GL          ] NPOT texture support is available
+[CRITICAL] [Clock       ] Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute. Remaining events:
+<ClockEvent (-1.0) callback=<bound method BoxLayout.do_layout of <__main__.FileListItem object at 0x000001B9DCEB13F0>>>
+<ClockEvent (-1.0) callback=<bound method BoxLayout.do_layout of <__main__.FileListItem object at 0x000001B9DCE7F920>>>
+<ClockEvent (-1.0) callback=<bound method BoxLayout.do_layout of <__main__.FileListItem object at 0x000001B9DCB694D0>>>
+<ClockEvent (-1.0) callback=<bound method Label.texture_update of <kivy.uix.label.Label object at 0x000001B9DCEC3CA0>>>
+<ClockEvent (-1.0) callback=<bound method Label.texture_update of <kivy.uix.label.Label object at 0x000001B9DCEC1700>>>
+<ClockEvent (-1.0) callback=<bound method Label.texture_update of <kivy.uix.label.Label object at 0x000001B9DCEB30D0>>>
+<ClockEvent (-1.0) callback=<bound method Label.texture_update of <kivy.uix.label.Label object at 0x000001B9DCE7C970>>>
+<ClockEvent (-1.0) callback=<bound method Label.texture_update of <kivy.uix.label.Label object at 0x000001B9DCE6E340>>>
+<ClockEvent (-1.0) callback=<bound method Label.texture_update of <kivy.uix.label.Label object at 0x000001B9DCE4FD10>>>
+<ClockEvent (-1.0) callback=<bound method BoxLayout.do_layout of <__main__.FileListItem object at 0x000001B9DCEFDF50>>>
+<ClockEvent (-1.0) callback=<bound method BoxLayout.do_layout of <__main__.FileListItem object at 0x000001B9DCEDC510>>>
+<ClockEvent (-1.0) callback=<bound method RecycleViewBehavior.refresh_views of <kivy.uix.recycleview.__init__.RecycleView object at 0x000001B9DBBDFA70>>>
+<ClockEvent (-1.0) callback=<bound method RecycleViewBehavior.refresh_views of <kivy.uix.recycleview.__init__.RecycleView object at 0x000001B9DBC24890>>>
+<ClockEvent (-1.0) callback=<bound method RecycleViewBehavior.refresh_views of <kivy.uix.recycleview.__init__.RecycleView object at 0x000001B9DBC40900>>>
+<ClockEvent (-1.0) callback=<bound method RecycleViewBehavior.refresh_views of <kivy.uix.recycleview.__init__.RecycleView object at 0x000001B9DBC60970>>>
+<ClockEvent (-1.0) callback=<bound method RecycleViewBehavior.refresh_views of <kivy.uix.recycleview.__init__.RecycleView object at 0x000001B9DBC96730>>>
+<ClockEvent (-1.0) callback=<bound method Label.texture_update of <kivy.uix.label.Label object at 0x000001B9DCEEEDC0>>>
+<ClockEvent (-1.0) callback=<bound method Label.texture_update of <kivy.uix.label.Label object at 0x000001B9DCEEC820>>>
+[CRITICAL] [Clock       ] Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute. Remaining events:
+<ClockEvent (-1.0) callback=<bound method BoxLayout.do_layout of <__main__.FileListItem object at 0x000001B9DCB694D0>>>
+<ClockEvent (-1.0) callback=<bound method BoxLayout.do_layout of <__main__.FileListItem object at 0x000001B9DCE7F920>>>
+<ClockEvent (-1.0) callback=<bound method BoxLayout.do_layout of <__main__.FileListItem object at 0x000001B9DCEB13F0>>>
+<ClockEvent (-1.0) callback=<bound method Label.texture_update of <kivy.uix.label.Label object at 0x000001B9DCE7C970>>>
+<ClockEvent (-1.0) callback=<bound method Label.texture_update of <kivy.uix.label.Label object at 0x000001B9DCE6E340>>>
+<ClockEvent (-1.0) callback=<bound method Label.texture_update of <kivy.uix.label.Label object at 0x000001B9DCE4FD10>>>
+<ClockEvent (-1.0) callback=<bound method Label.texture_update of <kivy.uix.label.Label object at 0x000001B9DCEC3CA0>>>
+<ClockEvent (-1.0) callback=<bound method Label.texture_update of <kivy.uix.label.Label object at 0x000001B9DCEC1700>>>
+<ClockEvent (-1.0) callback=<bound method Label.texture_update of <kivy.uix.label.Label object at 0x000001B9DCEB30D0>>>
+<ClockEvent (-1.0) callback=<bound method BoxLayout.do_layout of <__main__.FileListItem object at 0x000001B9DCEDC510>>>
+<ClockEvent (-1.0) callback=<bound method BoxLayout.do_layout of <__main__.FileListItem object at 0x000001B9DCEFDF50>>>
+<ClockEvent (-1.0) callback=<bound method RecycleViewBehavior.refresh_views of <kivy.uix.recycleview.__init__.RecycleView object at 0x000001B9DBBDFA70>>>
+<ClockEvent (-1.0) callback=<bound method RecycleViewBehavior.refresh_views of <kivy.uix.recycleview.__init__.RecycleView object at 0x000001B9DBC24890>>>
+<ClockEvent (-1.0) callback=<bound method RecycleViewBehavior.refresh_views of <kivy.uix.recycleview.__init__.RecycleView object at 0x000001B9DBC40900>>>
+<ClockEvent (-1.0) callback=<bound method Label.texture_update of <kivy.uix.label.Label object at 0x000001B9DCF20890>>>
+<ClockEvent (-1.0) callback=<bound method Label.texture_update of <kivy.uix.label.Label object at 0x000001B9DCF16260>>>
+<ClockEvent (-1.0) callback=<bound method BoxLayout.do_layout of <__main__.FileListItem object at 0x000001B9DCF52340>>>
+<ClockEvent (-1.0) callback=<bound method BoxLayout.do_layout of <__main__.FileListItem object at 0x000001B9DCF30900>>>
+<ClockEvent (-1.0) callback=<bound method Label.texture_update of <kivy.uix.label.Label object at 0x000001B9DCF74C80>>>
+<ClockEvent (-1.0) callback=<bound method Label.texture_update of <kivy.uix.label.Label object at 0x000001B9DCF640B0>>>
+<ClockEvent (-1.0) callback=<bound method Label.texture_update of <kivy.uix.label.Label object at 0x000001B9DCF431B0>>>
+<ClockEvent (-1.0) callback=<bound method Label.texture_update of <kivy.uix.label.Label object at 0x000001B9DCF325E0>>>
+[CRITICAL] [Clock       ] Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute. Remaining events:
+<ClockEvent (-1.0) callback=<bound method BoxLayout.do_layout of <__main__.FileListItem object at 0x000001B9DCEB13F0>>>
+<ClockEvent (-1.0) callback=<bound method BoxLayout.do_layout of <__main__.FileListItem object at 0x000001B9DCE7F920>>>
+<ClockEvent (-1.0) callback=<bound method BoxLayout.do_layout of <__main__.FileListItem object at 0x000001B9DCB694D0>>>
+<ClockEvent (-1.0) callback=<bound method Label.texture_update of <kivy.uix.label.Label object at 0x000001B9DCEC3CA0>>>
+<ClockEvent (-1.0) callback=<bound method Label.texture_update of <kivy.uix.label.Label object at 0x000001B9DCEC1700>>>
+<ClockEvent (-1.0) callback=<bound method Label.texture_update of <kivy.uix.label.Label object at 0x000001B9DCEB30D0>>>
+<ClockEvent (-1.0) callback=<bound method Label.texture_update of <kivy.uix.label.Label object at 0x000001B9DCE7C970>>>
+<ClockEvent (-1.0) callback=<bound method Label.texture_update of <kivy.uix.label.Label object at 0x000001B9DCE6E340>>>
+<ClockEvent (-1.0) callback=<bound method Label.texture_update of <kivy.uix.label.Label object at 0x000001B9DCE4FD10>>>
+<ClockEvent (-1.0) callback=<bound method BoxLayout.do_layout of <__main__.FileListItem object at 0x000001B9DCEFDF50>>>
+<ClockEvent (-1.0) callback=<bound method BoxLayout.do_layout of <__main__.FileListItem object at 0x000001B9DCEDC510>>>
+<ClockEvent (-1.0) callback=<bound method RecycleViewBehavior.refresh_views of <kivy.uix.recycleview.__init__.RecycleView object at 0x000001B9DBBDFA70>>>
+<ClockEvent (-1.0) callback=<bound method RecycleViewBehavior.refresh_views of <kivy.uix.recycleview.__init__.RecycleView object at 0x000001B9DBC24890>>>
+<ClockEvent (-1.0) callback=<bound method RecycleViewBehavior.refresh_views of <kivy.uix.recycleview.__init__.RecycleView object at 0x000001B9DBC40900>>>
+<ClockEvent (-1.0) callback=<bound method RecycleViewBehavior.refresh_views of <kivy.uix.recycleview.__init__.RecycleView object at 0x000001B9DBC60970>>>
+<ClockEvent (-1.0) callback=<bound method RecycleViewBehavior.refresh_views of <kivy.uix.recycleview.__init__.RecycleView object at 0x000001B9DBC96730>>>
+<ClockEvent (-1.0) callback=<bound method Label.texture_update of <kivy.uix.label.Label object at 0x000001B9DCEEEDC0>>>
+<ClockEvent (-1.0) callback=<bound method Label.texture_update of <kivy.uix.label.Label object at 0x000001B9DCEEC820>>>
+[CRITICAL] [Clock       ] Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute. Remaining events:
+<ClockEvent (-1.0) callback=<bound method BoxLayout.do_layout of <__main__.FileListItem object at 0x000001B9DCB694D0>>>
+<ClockEvent (-1.0) callback=<bound method BoxLayout.do_layout of <__main__.FileListItem object at 0x000001B9DCE7F920>>>
+<ClockEvent (-1.0) callback=<bound method BoxLayout.do_layout of <__main__.FileListItem object at 0x000001B9DCEB13F0>>>
+<ClockEvent (-1.0) callback=<bound method Label.texture_update of <kivy.uix.label.Label object at 0x000001B9DCE7C970>>>
+<ClockEvent (-1.0) callback=<bound method Label.texture_update of <kivy.uix.label.Label object at 0x000001B9DCE6E340>>>
+<ClockEvent (-1.0) callback=<bound method Label.texture_update of <kivy.uix.label.Label object at 0x000001B9DCE4FD10>>>
+<ClockEvent (-1.0) callback=<bound method Label.texture_update of <kivy.uix.label.Label object at 0x000001B9DCEC3CA0>>>
+<ClockEvent (-1.0) callback=<bound method Label.texture_update of <kivy.uix.label.Label object at 0x000001B9DCEC1700>>>
+<ClockEvent (-1.0) callback=<bound method Label.texture_update of <kivy.uix.label.Label object at 0x000001B9DCEB30D0>>>
+<ClockEvent (-1.0) callback=<bound method BoxLayout.do_layout of <__main__.FileListItem object at 0x000001B9DCEDC510>>>
+<ClockEvent (-1.0) callback=<bound method BoxLayout.do_layout of <__main__.FileListItem object at 0x000001B9DCEFDF50>>>
+<ClockEvent (-1.0) callback=<bound method RecycleViewBehavior.refresh_views of <kivy.uix.recycleview.__init__.RecycleView object at 0x000001B9DBBDFA70>>>
+<ClockEvent (-1.0) callback=<bound method RecycleViewBehavior.refresh_views of <kivy.uix.recycleview.__init__.RecycleView object at 0x000001B9DBC24890>>>
+<ClockEvent (-1.0) callback=<bound method RecycleViewBehavior.refresh_views of <kivy.uix.recycleview.__init__.RecycleView object at 0x000001B9DBC40900>>>
+<ClockEvent (-1.0) callback=<bound method Label.texture_update of <kivy.uix.label.Label object at 0x000001B9DCF20890>>>
+<ClockEvent (-1.0) callback=<bound method Label.texture_update of <kivy.uix.label.Label object at 0x000001B9DCF16260>>>
+<ClockEvent (-1.0) callback=<bound method BoxLayout.do_layout of <__main__.FileListItem object at 0x000001B9DCF30900>>>
+<ClockEvent (-1.0) callback=<bound method BoxLayout.do_layout of <__main__.FileListItem object at 0x000001B9DCF52340>>>
+<ClockEvent (-1.0) callback=<bound method Label.texture_update of <kivy.uix.label.Label object at 0x000001B9DCF431B0>>>
+<ClockEvent (-1.0) callback=<bound method Label.texture_update of <kivy.uix.label.Label object at 0x000001B9DCF325E0>>>
+<ClockEvent (-1.0) callback=<bound method Label.texture_update of <kivy.uix.label.Label object at 0x000001B9DCF74C80>>>
+<ClockEvent (-1.0) callback=<bound method Label.texture_update of <kivy.uix.label.Label object at 0x000001B9DCF640B0>>>
+[CRITICAL] [Clock       ] Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute. Remaining events:
+<ClockEvent (-1.0) callback=<bound method BoxLayout.do_layout of <__main__.FileListItem object at 0x000001B9DCEB13F0>>>
+<ClockEvent (-1.0) callback=<bound method BoxLayout.do_layout of <__main__.FileListItem object at 0x000001B9DCE7F920>>>
+<ClockEvent (-1.0) callback=<bound method BoxLayout.do_layout of <__main__.FileListItem object at 0x000001B9DCB694D0>>>
+<ClockEvent (-1.0) callback=<bound method Label.texture_update of <kivy.uix.label.Label object at 0x000001B9DCEC3CA0>>>
+<ClockEvent (-1.0) callback=<bound method Label.texture_update of <kivy.uix.label.Label object at 0x000001B9DCEC1700>>>
+<ClockEvent (-1.0) callback=<bound method Label.texture_update of <kivy.uix.label.Label object at 0x000001B9DCEB30D0>>>
+<ClockEvent (-1.0) callback=<bound method Label.texture_update of <kivy.uix.label.Label object at 0x000001B9DCE7C970>>>
+<ClockEvent (-1.0) callback=<bound method Label.texture_update of <kivy.uix.label.Label object at 0x000001B9DCE6E340>>>
+<ClockEvent (-1.0) callback=<bound method Label.texture_update of <kivy.uix.label.Label object at 0x000001B9DCE4FD10>>>
+<ClockEvent (-1.0) callback=<bound method BoxLayout.do_layout of <__main__.FileListItem object at 0x000001B9DCEFDF50>>>
+<ClockEvent (-1.0) callback=<bound method BoxLayout.do_layout of <__main__.FileListItem object at 0x000001B9DCEDC510>>>
+<ClockEvent (-1.0) callback=<bound method RecycleViewBehavior.refresh_views of <kivy.uix.recycleview.__init__.RecycleView object at 0x000001B9DBBDFA70>>>
+<ClockEvent (-1.0) callback=<bound method RecycleViewBehavior.refresh_views of <kivy.uix.recycleview.__init__.RecycleView object at 0x000001B9DBC24890>>>
+<ClockEvent (-1.0) callback=<bound method RecycleViewBehavior.refresh_views of <kivy.uix.recycleview.__init__.RecycleView object at 0x000001B9DBC40900>>>
+<ClockEvent (-1.0) callback=<bound method RecycleViewBehavior.refresh_views of <kivy.uix.recycleview.__init__.RecycleView object at 0x000001B9DBC60970>>>
+<ClockEvent (-1.0) callback=<bound method RecycleViewBehavior.refresh_views of <kivy.uix.recycleview.__init__.RecycleView object at 0x000001B9DBC96730>>>
+<ClockEvent (-1.0) callback=<bound method Label.texture_update of <kivy.uix.label.Label object at 0x000001B9DCEEEDC0>>>
+<ClockEvent (-1.0) callback=<bound method Label.texture_update of <kivy.uix.label.Label object at 0x000001B9DCEEC820>>>
+[CRITICAL] [Clock       ] Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute. Remaining events:
+<ClockEvent (-1.0) callback=<bound method BoxLayout.do_layout of <__main__.FileListItem object at 0x000001B9DCB694D0>>>
+<ClockEvent (-1.0) callback=<bound method BoxLayout.do_layout of <__main__.FileListItem object at 0x000001B9DCE7F920>>>
+<ClockEvent (-1.0) callback=<bound method BoxLayout.do_layout of <__main__.FileListItem object at 0x000001B9DCEB13F0>>>
+<ClockEvent (-1.0) callback=<bound method Label.texture_update of <kivy.uix.label.Label object at 0x000001B9DCE7C970>>>
+<ClockEvent (-1.0) callback=<bound method Label.texture_update of <kivy.uix.label.Label object at 0x000001B9DCE6E340>>>
+<ClockEvent (-1.0) callback=<bound method Label.texture_update of <kivy.uix.label.Label object at 0x000001B9DCE4FD10>>>
+<ClockEvent (-1.0) callback=<bound method Label.texture_update of <kivy.uix.label.Label object at 0x000001B9DCEC3CA0>>>
+<ClockEvent (-1.0) callback=<bound method Label.texture_update of <kivy.uix.label.Label object at 0x000001B9DCEC1700>>>
+<ClockEvent (-1.0) callback=<bound method Label.texture_update of <kivy.uix.label.Label object at 0x000001B9DCEB30D0>>>
+<ClockEvent (-1.0) callback=<bound method BoxLayout.do_layout of <__main__.FileListItem object at 0x000001B9DCEDC510>>>
+<ClockEvent (-1.0) callback=<bound method BoxLayout.do_layout of <__main__.FileListItem object at 0x000001B9DCEFDF50>>>
+<ClockEvent (-1.0) callback=<bound method RecycleViewBehavior.refresh_views of <kivy.uix.recycleview.__init__.RecycleView object at 0x000001B9DBBDFA70>>>
+<ClockEvent (-1.0) callback=<bound method RecycleViewBehavior.refresh_views of <kivy.uix.recycleview.__init__.RecycleView object at 0x000001B9DBC24890>>>
+<ClockEvent (-1.0) callback=<bound method RecycleViewBehavior.refresh_views of <kivy.uix.recycleview.__init__.RecycleView object at 0x000001B9DBC40900>>>
+<ClockEvent (-1.0) callback=<bound method Label.texture_update of <kivy.uix.label.Label object at 0x000001B9DCF20890>>>
+<ClockEvent (-1.0) callback=<bound method Label.texture_update of <kivy.uix.label.Label object at 0x000001B9DCF16260>>>
+<ClockEvent (-1.0) callback=<bound method BoxLayout.do_layout of <__main__.FileListItem object at 0x000001B9DCF52340>>>
+<ClockEvent (-1.0) callback=<bound method BoxLayout.do_layout of <__main__.FileListItem object at 0x000001B9DCF30900>>>
+<ClockEvent (-1.0) callback=<bound method Label.texture_update of <kivy.uix.label.Label object at 0x000001B9DCF74C80>>>
+<ClockEvent (-1.0) callback=<bound method Label.texture_update of <kivy.uix.label.Label object at 0x000001B9DCF640B0>>>
+<ClockEvent (-1.0) callback=<bound method Label.texture_update of <kivy.uix.label.Label object at 0x000001B9DCF431B0>>>
+<ClockEvent (-1.0) callback=<bound method Label.texture_update of <kivy.uix.label.Label object at 0x000001B9DCF325E0>>>
+[CRITICAL] [Clock       ] Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute. Remaining events:
+<ClockEvent (-1.0) callback=<bound method BoxLayout.do_layout of <__main__.FileListItem object at 0x000001B9DCEB13F0>>>
+<ClockEvent (-1.0) callback=<bound method BoxLayout.do_layout of <__main__.FileListItem object at 0x000001B9DCE7F920>>>
+<ClockEvent (-1.0) callback=<bound method BoxLayout.do_layout of <__main__.FileListItem object at 0x000001B9DCB694D0>>>
+<ClockEvent (-1.0) callback=<bound method Label.texture_update of <kivy.uix.label.Label object at 0x000001B9DCEC3CA0>>>
+<ClockEvent (-1.0) callback=<bound method Label.texture_update of <kivy.uix.label.Label object at 0x000001B9DCEC1700>>>
+<ClockEvent (-1.0) callback=<bound method Label.texture_update of <kivy.uix.label.Label object at 0x000001B9DCEB30D0>>>
+<ClockEvent (-1.0) callback=<bound method Label.texture_update of <kivy.uix.label.Label object at 0x000001B9DCE7C970>>>
+<ClockEvent (-1.0) callback=<bound method Label.texture_update of <kivy.uix.label.Label object at 0x000001B9DCE6E340>>>
+<ClockEvent (-1.0) callback=<bound method Label.texture_update of <kivy.uix.label.Label object at 0x000001B9DCE4FD10>>>
+<ClockEvent (-1.0) callback=<bound method BoxLayout.do_layout of <__main__.FileListItem object at 0x000001B9DCEFDF50>>>
+<ClockEvent (-1.0) callback=<bound method BoxLayout.do_layout of <__main__.FileListItem object at 0x000001B9DCEDC510>>>
+<ClockEvent (-1.0) callback=<bound method RecycleViewBehavior.refresh_views of <kivy.uix.recycleview.__init__.RecycleView object at 0x000001B9DBBDFA70>>>
+<ClockEvent (-1.0) callback=<bound method RecycleViewBehavior.refresh_views of <kivy.uix.recycleview.__init__.RecycleView object at 0x000001B9DBC24890>>>
+<ClockEvent (-1.0) callback=<bound method RecycleViewBehavior.refresh_views of <kivy.uix.recycleview.__init__.RecycleView object at 0x000001B9DBC40900>>>
+<ClockEvent (-1.0) callback=<bound method RecycleViewBehavior.refresh_views of <kivy.uix.recycleview.__init__.RecycleView object at 0x000001B9DBC60970>>>
+<ClockEvent (-1.0) callback=<bound method RecycleViewBehavior.refresh_views of <kivy.uix.recycleview.__init__.RecycleView object at 0x000001B9DBC96730>>>
+<ClockEvent (-1.0) callback=<bound method Label.texture_update of <kivy.uix.label.Label object at 0x000001B9DCEEEDC0>>>
+<ClockEvent (-1.0) callback=<bound method Label.texture_update of <kivy.uix.label.Label object at 0x000001B9DCEEC820>>>
+[CRITICAL] [Clock       ] Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute. Remaining events:
+<ClockEvent (-1.0) callback=<bound method BoxLayout.do_layout of <__main__.FileListItem object at 0x000001B9DCB694D0>>>
+<ClockEvent (-1.0) callback=<bound method BoxLayout.do_layout of <__main__.FileListItem object at 0x000001B9DCE7F920>>>
+<ClockEvent (-1.0) callback=<bound method BoxLayout.do_layout of <__main__.FileListItem object at 0x000001B9DCEB13F0>>>
+<ClockEvent (-1.0) callback=<bound method Label.texture_update of <kivy.uix.label.Label object at 0x000001B9DCE7C970>>>
+<ClockEvent (-1.0) callback=<bound method Label.texture_update of <kivy.uix.label.Label object at 0x000001B9DCE6E340>>>
+<ClockEvent (-1.0) callback=<bound method Label.texture_update of <kivy.uix.label.Label object at 0x000001B9DCE4FD10>>>
+<ClockEvent (-1.0) callback=<bound method Label.texture_update of <kivy.uix.label.Label object at 0x000001B9DCEC3CA0>>>
+<ClockEvent (-1.0) callback=<bound method Label.texture_update of <kivy.uix.label.Label object at 0x000001B9DCEC1700>>>
+<ClockEvent (-1.0) callback=<bound method Label.texture_update of <kivy.uix.label.Label object at 0x000001B9DCEB30D0>>>
+<ClockEvent (-1.0) callback=<bound method BoxLayout.do_layout of <__main__.FileListItem object at 0x000001B9DCEDC510>>>
+<ClockEvent (-1.0) callback=<bound method BoxLayout.do_layout of <__main__.FileListItem object at 0x000001B9DCEFDF50>>>
+<ClockEvent (-1.0) callback=<bound method RecycleViewBehavior.refresh_views of <kivy.uix.recycleview.__init__.RecycleView object at 0x000001B9DBBDFA70>>>
+<ClockEvent (-1.0) callback=<bound method RecycleViewBehavior.refresh_views of <kivy.uix.recycleview.__init__.RecycleView object at 0x000001B9DBC24890>>>
+<ClockEvent (-1.0) callback=<bound method RecycleViewBehavior.refresh_views of <kivy.uix.recycleview.__init__.RecycleView object at 0x000001B9DBC40900>>>
+<ClockEvent (-1.0) callback=<bound method Label.texture_update of <kivy.uix.label.Label object at 0x000001B9DCF20890>>>
+<ClockEvent (-1.0) callback=<bound method Label.texture_update of <kivy.uix.label.Label object at 0x000001B9DCF16260>>>
+<ClockEvent (-1.0) callback=<bound method BoxLayout.do_layout of <__main__.FileListItem object at 0x000001B9DCF30900>>>
+<ClockEvent (-1.0) callback=<bound method BoxLayout.do_layout of <__main__.FileListItem object at 0x000001B9DCF52340>>>
+<ClockEvent (-1.0) callback=<bound method Label.texture_update of <kivy.uix.label.Label object at 0x000001B9DCF431B0>>>
+<ClockEvent (-1.0) callback=<bound method Label.texture_update of <kivy.uix.label.Label object at 0x000001B9DCF325E0>>>
+<ClockEvent (-1.0) callback=<bound method Label.texture_update of <kivy.uix.label.Label object at 0x000001B9DCF74C80>>>
+<ClockEvent (-1.0) callback=<bound method Label.texture_update of <kivy.uix.label.Label object at 0x000001B9DCF640B0>>>
+[CRITICAL] [Clock       ] Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute. Remaining events:
+<ClockEvent (-1.0) callback=<bound method BoxLayout.do_layout of <__main__.FileListItem object at 0x000001B9DCEB13F0>>>
+<ClockEvent (-1.0) callback=<bound method BoxLayout.do_layout of <__main__.FileListItem object at 0x000001B9DCE7F920>>>
+<ClockEvent (-1.0) callback=<bound method BoxLayout.do_layout of <__main__.FileListItem object at 0x000001B9DCB694D0>>>
+<ClockEvent (-1.0) callback=<bound method Label.texture_update of <kivy.uix.label.Label object at 0x000001B9DCEC3CA0>>>
+<ClockEvent (-1.0) callback=<bound method Label.texture_update of <kivy.uix.label.Label object at 0x000001B9DCEC1700>>>
+<ClockEvent (-1.0) callback=<bound method Label.texture_update of <kivy.uix.label.Label object at 0x000001B9DCEB30D0>>>
+<ClockEvent (-1.0) callback=<bound method Label.texture_update of <kivy.uix.label.Label object at 0x000001B9DCE7C970>>>
+<ClockEvent (-1.0) callback=<bound method Label.texture_update of <kivy.uix.label.Label object at 0x000001B9DCE6E340>>>
+<ClockEvent (-1.0) callback=<bound method Label.texture_update of <kivy.uix.label.Label object at 0x000001B9DCE4FD10>>>
+<ClockEvent (-1.0) callback=<bound method BoxLayout.do_layout of <__main__.FileListItem object at 0x000001B9DCEFDF50>>>
+<ClockEvent (-1.0) callback=<bound method BoxLayout.do_layout of <__main__.FileListItem object at 0x000001B9DCEDC510>>>
+<ClockEvent (-1.0) callback=<bound method RecycleViewBehavior.refresh_views of <kivy.uix.recycleview.__init__.RecycleView object at 0x000001B9DBBDFA70>>>
+<ClockEvent (-1.0) callback=<bound method RecycleViewBehavior.refresh_views of <kivy.uix.recycleview.__init__.RecycleView object at 0x000001B9DBC24890>>>
+<ClockEvent (-1.0) callback=<bound method RecycleViewBehavior.refresh_views of <kivy.uix.recycleview.__init__.RecycleView object at 0x000001B9DBC40900>>>
+<ClockEvent (-1.0) callback=<bound method RecycleViewBehavior.refresh_views of <kivy.uix.recycleview.__init__.RecycleView object at 0x000001B9DBC60970>>>
+<ClockEvent (-1.0) callback=<bound method RecycleViewBehavior.refresh_views of <kivy.uix.recycleview.__init__.RecycleView object at 0x000001B9DBC96730>>>
+<ClockEvent (-1.0) callback=<bound method Label.texture_update of <kivy.uix.label.Label object at 0x000001B9DCEEEDC0>>>
+<ClockEvent (-1.0) callback=<bound method Label.texture_update of <kivy.uix.label.Label object at 0x000001B9DCEEC820>>>
+[CRITICAL] [Clock       ] Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute. Remaining events:
+<ClockEvent (-1.0) callback=<bound method BoxLayout.do_layout of <__main__.FileListItem object at 0x000001B9DCB694D0>>>
+<ClockEvent (-1.0) callback=<bound method BoxLayout.do_layout of <__main__.FileListItem object at 0x000001B9DCE7F920>>>
+<ClockEvent (-1.0) callback=<bound method BoxLayout.do_layout of <__main__.FileListItem object at 0x000001B9DCEB13F0>>>
+<ClockEvent (-1.0) callback=<bound method Label.texture_update of <kivy.uix.label.Label object at 0x000001B9DCE7C970>>>
+<ClockEvent (-1.0) callback=<bound method Label.texture_update of <kivy.uix.label.Label object at 0x000001B9DCE6E340>>>
+<ClockEvent (-1.0) callback=<bound method Label.texture_update of <kivy.uix.label.Label object at 0x000001B9DCE4FD10>>>
+<ClockEvent (-1.0) callback=<bound method Label.texture_update of <kivy.uix.label.Label object at 0x000001B9DCEC3CA0>>>
+<ClockEvent (-1.0) callback=<bound method Label.texture_update of <kivy.uix.label.Label object at 0x000001B9DCEC1700>>>
+<ClockEvent (-1.0) callback=<bound method Label.texture_update of <kivy.uix.label.Label object at 0x000001B9DCEB30D0>>>
+<ClockEvent (-1.0) callback=<bound method BoxLayout.do_layout of <__main__.FileListItem object at 0x000001B9DCEDC510>>>
+<ClockEvent (-1.0) callback=<bound method BoxLayout.do_layout of <__main__.FileListItem object at 0x000001B9DCEFDF50>>>
+<ClockEvent (-1.0) callback=<bound method RecycleViewBehavior.refresh_views of <kivy.uix.recycleview.__init__.RecycleView object at 0x000001B9DBBDFA70>>>
+<ClockEvent (-1.0) callback=<bound method RecycleViewBehavior.refresh_views of <kivy.uix.recycleview.__init__.RecycleView object at 0x000001B9DBC24890>>>
+<ClockEvent (-1.0) callback=<bound method RecycleViewBehavior.refresh_views of <kivy.uix.recycleview.__init__.RecycleView object at 0x000001B9DBC40900>>>
+<ClockEvent (-1.0) callback=<bound method Label.texture_update of <kivy.uix.label.Label object at 0x000001B9DCF20890>>>
+<ClockEvent (-1.0) callback=<bound method Label.texture_update of <kivy.uix.label.Label object at 0x000001B9DCF16260>>>
+<ClockEvent (-1.0) callback=<bound method BoxLayout.do_layout of <__main__.FileListItem object at 0x000001B9DCF52340>>>
+<ClockEvent (-1.0) callback=<bound method BoxLayout.do_layout of <__main__.FileListItem object at 0x000001B9DCF30900>>>
+<ClockEvent (-1.0) callback=<bound method Label.texture_update of <kivy.uix.label.Label object at 0x000001B9DCF74C80>>>
+<ClockEvent (-1.0) callback=<bound method Label.texture_update of <kivy.uix.label.Label object at 0x000001B9DCF640B0>>>
+<ClockEvent (-1.0) callback=<bound method Label.texture_update of <kivy.uix.label.Label object at 0x000001B9DCF431B0>>>
+<ClockEvent (-1.0) callback=<bound method Label.texture_update of <kivy.uix.label.Label object at 0x000001B9DCF325E0>>>
+[CRITICAL] [Clock       ] Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute. Remaining events:
+<ClockEvent (-1.0) callback=<bound method BoxLayout.do_layout of <__main__.FileListItem object at 0x000001B9DCEB13F0>>>
+<ClockEvent (-1.0) callback=<bound method BoxLayout.do_layout of <__main__.FileListItem object at 0x000001B9DCE7F920>>>
+<ClockEvent (-1.0) callback=<bound method BoxLayout.do_layout of <__main__.FileListItem object at 0x000001B9DCB694D0>>>
+<ClockEvent (-1.0) callback=<bound method Label.texture_update of <kivy.uix.label.Label object at 0x000001B9DCEC3CA0>>>
+<ClockEvent (-1.0) callback=<bound method Label.texture_update of <kivy.uix.label.Label object at 0x000001B9DCEC1700>>>
+<ClockEvent (-1.0) callback=<bound method Label.texture_update of <kivy.uix.label.Label object at 0x000001B9DCEB30D0>>>
+<ClockEvent (-1.0) callback=<bound method Label.texture_update of <kivy.uix.label.Label object at 0x000001B9DCE7C970>>>
+<ClockEvent (-1.0) callback=<bound method Label.texture_update of <kivy.uix.label.Label object at 0x000001B9DCE6E340>>>
+<ClockEvent (-1.0) callback=<bound method Label.texture_update of <kivy.uix.label.Label object at 0x000001B9DCE4FD10>>>
+<ClockEvent (-1.0) callback=<bound method BoxLayout.do_layout of <__main__.FileListItem object at 0x000001B9DCEFDF50>>>
+<ClockEvent (-1.0) callback=<bound method BoxLayout.do_layout of <__main__.FileListItem object at 0x000001B9DCEDC510>>>
+<ClockEvent (-1.0) callback=<bound method RecycleViewBehavior.refresh_views of <kivy.uix.recycleview.__init__.RecycleView object at 0x000001B9DBBDFA70>>>
+<ClockEvent (-1.0) callback=<bound method RecycleViewBehavior.refresh_views of <kivy.uix.recycleview.__init__.RecycleView object at 0x000001B9DBC24890>>>
+<ClockEvent (-1.0) callback=<bound method RecycleViewBehavior.refresh_views of <kivy.uix.recycleview.__init__.RecycleView object at 0x000001B9DBC40900>>>
+<ClockEvent (-1.0) callback=<bound method RecycleViewBehavior.refresh_views of <kivy.uix.recycleview.__init__.RecycleView object at 0x000001B9DBC60970>>>
+<ClockEvent (-1.0) callback=<bound method RecycleViewBehavior.refresh_views of <kivy.uix.recycleview.__init__.RecycleView object at 0x000001B9DBC96730>>>
+<ClockEvent (-1.0) callback=<bound method Label.texture_update of <kivy.uix.label.Label object at 0x000001B9DCEEEDC0>>>
+<ClockEvent (-1.0) callback=<bound method Label.texture_update of <kivy.uix.label.Label object at 0x000001B9DCEEC820>>>
+[CRITICAL] [Clock       ] Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute. Remaining events:
+<ClockEvent (-1.0) callback=<bound method BoxLayout.do_layout of <__main__.FileListItem object at 0x000001B9DCB694D0>>>
+<ClockEvent (-1.0) callback=<bound method BoxLayout.do_layout of <__main__.FileListItem object at 0x000001B9DCE7F920>>>
+<ClockEvent (-1.0) callback=<bound method BoxLayout.do_layout of <__main__.FileListItem object at 0x000001B9DCEB13F0>>>
+<ClockEvent (-1.0) callback=<bound method Label.texture_update of <kivy.uix.label.Label object at 0x000001B9DCE7C970>>>
+<ClockEvent (-1.0) callback=<bound method Label.texture_update of <kivy.uix.label.Label object at 0x000001B9DCE6E340>>>
+<ClockEvent (-1.0) callback=<bound method Label.texture_update of <kivy.uix.label.Label object at 0x000001B9DCE4FD10>>>
+<ClockEvent (-1.0) callback=<bound method Label.texture_update of <kivy.uix.label.Label object at 0x000001B9DCEC3CA0>>>
+<ClockEvent (-1.0) callback=<bound method Label.texture_update of <kivy.uix.label.Label object at 0x000001B9DCEC1700>>>
+<ClockEvent (-1.0) callback=<bound method Label.texture_update of <kivy.uix.label.Label object at 0x000001B9DCEB30D0>>>
+<ClockEvent (-1.0) callback=<bound method BoxLayout.do_layout of <__main__.FileListItem object at 0x000001B9DCEDC510>>>
+<ClockEvent (-1.0) callback=<bound method BoxLayout.do_layout of <__main__.FileListItem object at 0x000001B9DCEFDF50>>>
+<ClockEvent (-1.0) callback=<bound method RecycleViewBehavior.refresh_views of <kivy.uix.recycleview.__init__.RecycleView object at 0x000001B9DBBDFA70>>>
+<ClockEvent (-1.0) callback=<bound method RecycleViewBehavior.refresh_views of <kivy.uix.recycleview.__init__.RecycleView object at 0x000001B9DBC24890>>>
+<ClockEvent (-1.0) callback=<bound method RecycleViewBehavior.refresh_views of <kivy.uix.recycleview.__init__.RecycleView object at 0x000001B9DBC40900>>>
+<ClockEvent (-1.0) callback=<bound method Label.texture_update of <kivy.uix.label.Label object at 0x000001B9DCF20890>>>
+<ClockEvent (-1.0) callback=<bound method Label.texture_update of <kivy.uix.label.Label object at 0x000001B9DCF16260>>>
+<ClockEvent (-1.0) callback=<bound method BoxLayout.do_layout of <__main__.FileListItem object at 0x000001B9DCF30900>>>
+<ClockEvent (-1.0) callback=<bound method BoxLayout.do_layout of <__main__.FileListItem object at 0x000001B9DCF52340>>>
+<ClockEvent (-1.0) callback=<bound method Label.texture_update of <kivy.uix.label.Label object at 0x000001B9DCF431B0>>>
+<ClockEvent (-1.0) callback=<bound method Label.texture_update of <kivy.uix.label.Label object at 0x000001B9DCF325E0>>>
+<ClockEvent (-1.0) callback=<bound method Label.texture_update of <kivy.uix.label.Label object at 0x000001B9DCF74C80>>>
+<ClockEvent (-1.0) callback=<bound method Label.texture_update of <kivy.uix.label.Label object at 0x000001B9DCF640B0>>>
+[CRITICAL] [Clock       ] Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute. Remaining events:
+<ClockEvent (-1.0) callback=<bound method BoxLayout.do_layout of <__main__.FileListItem object at 0x000001B9DCEB13F0>>>
+<ClockEvent (-1.0) callback=<bound method BoxLayout.do_layout of <__main__.FileListItem object at 0x000001B9DCE7F920>>>
+<ClockEvent (-1.0) callback=<bound method BoxLayout.do_layout of <__main__.FileListItem object at 0x000001B9DCB694D0>>>
+<ClockEvent (-1.0) callback=<bound method Label.texture_update of <kivy.uix.label.Label object at 0x000001B9DCEC3CA0>>>
+<ClockEvent (-1.0) callback=<bound method Label.texture_update of <kivy.uix.label.Label object at 0x000001B9DCEC1700>>>
+<ClockEvent (-1.0) callback=<bound method Label.texture_update of <kivy.uix.label.Label object at 0x000001B9DCEB30D0>>>
+<ClockEvent (-1.0) callback=<bound method Label.texture_update of <kivy.uix.label.Label object at 0x000001B9DCE7C970>>>
+<ClockEvent (-1.0) callback=<bound method Label.texture_update of <kivy.uix.label.Label object at 0x000001B9DCE6E340>>>
+<ClockEvent (-1.0) callback=<bound method Label.texture_update of <kivy.uix.label.Label object at 0x000001B9DCE4FD10>>>
+<ClockEvent (-1.0) callback=<bound method BoxLayout.do_layout of <__main__.FileListItem object at 0x000001B9DCEFDF50>>>
+<ClockEvent (-1.0) callback=<bound method BoxLayout.do_layout of <__main__.FileListItem object at 0x000001B9DCEDC510>>>
+<ClockEvent (-1.0) callback=<bound method RecycleViewBehavior.refresh_views of <kivy.uix.recycleview.__init__.RecycleView object at 0x000001B9DBBDFA70>>>
+<ClockEvent (-1.0) callback=<bound method RecycleViewBehavior.refresh_views of <kivy.uix.recycleview.__init__.RecycleView object at 0x000001B9DBC24890>>>
+<ClockEvent (-1.0) callback=<bound method RecycleViewBehavior.refresh_views of <kivy.uix.recycleview.__init__.RecycleView object at 0x000001B9DBC40900>>>
+<ClockEvent (-1.0) callback=<bound method RecycleViewBehavior.refresh_views of <kivy.uix.recycleview.__init__.RecycleView object at 0x000001B9DBC60970>>>
+<ClockEvent (-1.0) callback=<bound method RecycleViewBehavior.refresh_views of <kivy.uix.recycleview.__init__.RecycleView object at 0x000001B9DBC96730>>>
+<ClockEvent (-1.0) callback=<bound method Label.texture_update of <kivy.uix.label.Label object at 0x000001B9DCEEEDC0>>>
+<ClockEvent (-1.0) callback=<bound method Label.texture_update of <kivy.uix.label.Label object at 0x000001B9DCEEC820>>>
+[CRITICAL] [Clock       ] Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute. Remaining events:
+<ClockEvent (-1.0) callback=<bound method BoxLayout.do_layout of <__main__.FileListItem object at 0x000001B9DCB694D0>>>
+<ClockEvent (-1.0) callback=<bound method BoxLayout.do_layout of <__main__.FileListItem object at 0x000001B9DCE7F920>>>
+<ClockEvent (-1.0) callback=<bound method BoxLayout.do_layout of <__main__.FileListItem object at 0x000001B9DCEB13F0>>>
+<ClockEvent (-1.0) callback=<bound method Label.texture_update of <kivy.uix.label.Label object at 0x000001B9DCE7C970>>>
+<ClockEvent (-1.0) callback=<bound method Label.texture_update of <kivy.uix.label.Label object at 0x000001B9DCE6E340>>>
+<ClockEvent (-1.0) callback=<bound method Label.texture_update of <kivy.uix.label.Label object at 0x000001B9DCE4FD10>>>
+<ClockEvent (-1.0) callback=<bound method Label.texture_update of <kivy.uix.label.Label object at 0x000001B9DCEC3CA0>>>
+<ClockEvent (-1.0) callback=<bound method Label.texture_update of <kivy.uix.label.Label object at 0x000001B9DCEC1700>>>
+<ClockEvent (-1.0) callback=<bound method Label.texture_update of <kivy.uix.label.Label object at 0x000001B9DCEB30D0>>>
+<ClockEvent (-1.0) callback=<bound method BoxLayout.do_layout of <__main__.FileListItem object at 0x000001B9DCEDC510>>>
+<ClockEvent (-1.0) callback=<bound method BoxLayout.do_layout of <__main__.FileListItem object at 0x000001B9DCEFDF50>>>
+<ClockEvent (-1.0) callback=<bound method RecycleViewBehavior.refresh_views of <kivy.uix.recycleview.__init__.RecycleView object at 0x000001B9DBBDFA70>>>
+<ClockEvent (-1.0) callback=<bound method RecycleViewBehavior.refresh_views of <kivy.uix.recycleview.__init__.RecycleView object at 0x000001B9DBC24890>>>
+<ClockEvent (-1.0) callback=<bound method RecycleViewBehavior.refresh_views of <kivy.uix.recycleview.__init__.RecycleView object at 0x000001B9DBC40900>>>
+<ClockEvent (-1.0) callback=<bound method Label.texture_update of <kivy.uix.label.Label object at 0x000001B9DCF20890>>>
+<ClockEvent (-1.0) callback=<bound method Label.texture_update of <kivy.uix.label.Label object at 0x000001B9DCF16260>>>
+<ClockEvent (-1.0) callback=<bound method BoxLayout.do_layout of <__main__.FileListItem object at 0x000001B9DCF52340>>>
+<ClockEvent (-1.0) callback=<bound method BoxLayout.do_layout of <__main__.FileListItem object at 0x000001B9DCF30900>>>
+<ClockEvent (-1.0) callback=<bound method Label.texture_update of <kivy.uix.label.Label object at 0x000001B9DCF74C80>>>
+<ClockEvent (-1.0) callback=<bound method Label.texture_update of <kivy.uix.label.Label object at 0x000001B9DCF640B0>>>
+<ClockEvent (-1.0) callback=<bound method Label.texture_update of <kivy.uix.label.Label object at 0x000001B9DCF431B0>>>
+<ClockEvent (-1.0) callback=<bound method Label.texture_update of <kivy.uix.label.Label object at 0x000001B9DCF325E0>>>
+[CRITICAL] [Clock       ] Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute. Remaining events:
+<ClockEvent (-1.0) callback=<bound method BoxLayout.do_layout of <__main__.FileListItem object at 0x000001B9DCEB13F0>>>
+<ClockEvent (-1.0) callback=<bound method BoxLayout.do_layout of <__main__.FileListItem object at 0x000001B9DCE7F920>>>
+<ClockEvent (-1.0) callback=<bound method BoxLayout.do_layout of <__main__.FileListItem object at 0x000001B9DCB694D0>>>
+<ClockEvent (-1.0) callback=<bound method Label.texture_update of <kivy.uix.label.Label object at 0x000001B9DCEC3CA0>>>
+<ClockEvent (-1.0) callback=<bound method Label.texture_update of <kivy.uix.label.Label object at 0x000001B9DCEC1700>>>
+<ClockEvent (-1.0) callback=<bound method Label.texture_update of <kivy.uix.label.Label object at 0x000001B9DCEB30D0>>>
+<ClockEvent (-1.0) callback=<bound method Label.texture_update of <kivy.uix.label.Label object at 0x000001B9DCE7C970>>>
+<ClockEvent (-1.0) callback=<bound method Label.texture_update of <kivy.uix.label.Label object at 0x000001B9DCE6E340>>>
+<ClockEvent (-1.0) callback=<bound method Label.texture_update of <kivy.uix.label.Label object at 0x000001B9DCE4FD10>>>
+<ClockEvent (-1.0) callback=<bound method BoxLayout.do_layout of <__main__.FileListItem object at 0x000001B9DCEFDF50>>>
+<ClockEvent (-1.0) callback=<bound method BoxLayout.do_layout of <__main__.FileListItem object at 0x000001B9DCEDC510>>>
+<ClockEvent (-1.0) callback=<bound method RecycleViewBehavior.refresh_views of <kivy.uix.recycleview.__init__.RecycleView object at 0x000001B9DBBDFA70>>>
+<ClockEvent (-1.0) callback=<bound method RecycleViewBehavior.refresh_views of <kivy.uix.recycleview.__init__.RecycleView object at 0x000001B9DBC24890>>>
+<ClockEvent (-1.0) callback=<bound method RecycleViewBehavior.refresh_views of <kivy.uix.recycleview.__init__.RecycleView object at 0x000001B9DBC40900>>>
+<ClockEvent (-1.0) callback=<bound method RecycleViewBehavior.refresh_views of <kivy.uix.recycleview.__init__.RecycleView object at 0x000001B9DBC60970>>>
+<ClockEvent (-1.0) callback=<bound method RecycleViewBehavior.refresh_views of <kivy.uix.recycleview.__init__.RecycleView object at 0x000001B9DBC96730>>>
+<ClockEvent (-1.0) callback=<bound method Label.texture_update of <kivy.uix.label.Label object at 0x000001B9DCEEEDC0>>>
+<ClockEvent (-1.0) callback=<bound method Label.texture_update of <kivy.uix.label.Label object at 0x000001B9DCEEC820>>>
+[INFO   ] [Base        ] Leaving application in progress...
+(venv) PS D:\Disk-Cleaner> 

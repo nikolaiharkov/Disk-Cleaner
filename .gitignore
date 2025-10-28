@@ -1,0 +1,41 @@
+# --- .gitignore ---
+
+# Python Bytecode and Cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual Environment
+venv/
+env/
+.env
+.venv
+
+# Build & Distribution Artifacts
+build/
+dist/
+*.egg-info/
+*.spec
+
+# Log Files
+*.log
+.kivy/logs/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE / Editor specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Temporary/Test files (optional, adjust if needed)
+temp/
+tests/temp_output/
+
+# Secrets (if any)
+# config.ini
+# secrets.json
